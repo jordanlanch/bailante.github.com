@@ -1,0 +1,208 @@
+ #navbar ul li a {
+  margin-top: 30px;
+  color: #ff1493;
+  font-family: 'Kalam', cursive;
+
+}
+.navbar {
+ background-color:rgba(25, 158, 218, 0.7);
+ color: #ff1493;
+ font-family: 'Kalam', cursive;
+ font-size: 15px;
+}
+
+
+
+@media (max-width: 768px) {
+
+#navbar ul li a {
+  margin-top: 5px;
+}
+
+
+}
+
+@media (min-width: 768px) {
+
+  #navbar ul li a {
+  margin-top: 30px;
+  color: #ff1493;
+}
+#navbar ul li a:hover{
+  margin-top: 30px;
+  color: #fff;
+}
+
+}
+
+#login-dp{
+    min-width: 250px;
+    padding: 14px 14px 0;
+    overflow:hidden;
+    background-color:rgba(25, 158, 218, 0.7);
+    color: #ff1493;
+    font-family: 'Kalam', cursive;
+}
+#login-dp .help-block{
+    font-size:12px;
+    color: #ff1493;   
+}
+#login-dp .bottom{
+    background-color:rgba(25, 158, 218, 0.7);
+    border-top:1px solid #ddd;
+    clear:both;
+    padding:14px;
+}
+#login-dp .social-buttons{
+    margin:12px 0    
+}
+#login-dp .social-buttons a{
+    width: 49%;
+}
+#login-dp .form-group {
+    margin-bottom: 10px;
+}
+.btn-fb{
+    color: #fff;
+    background-color:#3b5998;
+}
+.btn-fb:hover{
+    color: #fff;
+    background-color:#496ebc 
+}
+.btn-tw{
+    color: #fff;
+    background-color:rgb(139, 0, 0);
+}
+.btn-tw:hover{
+    color: #fff;
+    background-color:rgb(220, 20, 60);
+}
+@media(max-width:768px){
+    #login-dp{
+        background-color: inherit;
+        
+    }
+    #login-dp .bottom{
+        background-color: inherit;
+        border-top:0 none;
+    }
+}
+
+
+/* Makes images fully responsive */
+
+.img-responsive,
+.thumbnail > img,
+.thumbnail a > img,
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* ------------------- Carousel Styling ------------------- */
+
+
+.carousel-caption {
+  background-color: rgba(0,0,0,.5);
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  padding: 0 0 10px 25px;
+  color: #fff;
+  text-align: left;
+}
+
+.carousel-indicators {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  z-index: 15;
+  margin: 0;
+  padding: 0 25px 25px 0;
+  text-align: right;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+  background-image: none;
+}
+
+
+/* ------------------- Section Styling - Not needed for carousel styling ------------------- */
+
+.section-white {
+  background-color: #fff;
+  color: #555;
+  margin-top: -19px;
+}
+
+.navbar-login
+{
+    width: 305px;
+    padding: 10px;
+    padding-bottom: 0px;
+}
+
+.navbar-login-session
+{
+    padding: 10px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+.icon-size
+{
+    font-size: 87px;
+}
+
+
+input.upload {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    cursor: pointer;
+    opacity: 1;
+    filter: alpha(opacity=1);    
+}
+
+.form-inline .form-group{
+    margin-left: 0;
+    margin-right: 0;
+    font-family: 'Kalam', cursive;
+}
+
+.control-label {
+    color:#333333;
+    font-family: 'Kalam', cursive;
+}
+
+.modal-header, .modal-content {
+  padding-bottom: 5px;
+  font-family: 'Kalam', cursive;
+}
+
+.modal-footer {
+      padding: 0;
+  }
+    
+.modal-footer .btn-group button {
+  height:40px;
+  border-top-left-radius : 0;
+  border-top-right-radius : 0;
+  border: none;
+  border-right: 1px solid #ddd;
+}
+  
+.modal-footer .btn-group:last-child > button {
+  border-right: 0;
+}
