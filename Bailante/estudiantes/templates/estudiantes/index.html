@@ -3,9 +3,9 @@
 
 {% block content %}
 
-<div class="banner-info text-center animate fadeIn delay-05s">
-  <section id="portada" class="section-white animate fadeInUp delay-05s">
 
+  <section id="portada" class="section-white animate fadeInUp delay-05s" >
+  <article>
     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
       <!-- Indicators -->
       <ol class="carousel-indicators">
@@ -18,21 +18,12 @@
       <div class="carousel-inner">
         <div class="item active">
           <img src="{% static "assets/img/portada1.jpg"%}" alt="...">
-          <div class="carousel-caption">
-            <h2>Heading</h2>
-          </div>
         </div>
         <div class="item">
           <img src="{% static "assets/img/portada2.jpg"%}" alt="...">
-          <div class="carousel-caption">
-            <h2>Heading</h2>
-          </div>
         </div>
         <div class="item">
           <img src="{% static "assets/img/portada3.jpg"%}" alt="...">
-          <div class="carousel-caption">
-            <h2>Heading</h2>
-          </div>
         </div>
       </div>
 
@@ -44,14 +35,19 @@
         <span class="glyphicon glyphicon-chevron-right"></span>
       </a>
     </div>
+  </article>
   </section>
   <div class="overlay-detail">
+      <article>
     <a href="#portada"><i class="fa fa-angle-down"></i></a>
+</article>
   </div>
-</div>
-<section id="clases" class="section animate fadeInUp">
+<section id="clases" class="section-white animate fadeInUp" >
+
   <div class="row">
-    <div class="col-md-2 clases-cont">
+    <article>
+      <div class="col-md-12">
+        <div class="col-md-2 clases-cont">
 
       <img src="{% static "assets/img/hip-hop.jpg"%}" class="image">
     </div>
@@ -70,7 +66,10 @@
     <div class="col-md-2 clases-cont">
       <img src="{% static "assets/img/kizomba.jpg"%}" class="image">
     </div>
+    </div>
+    </article>
   </div>
+
 </section>
 
 <section id="instructores" class="animate fadeInUp delay-05s">
@@ -128,48 +127,53 @@
 </section>
 
 <section id="nosotros" class="section-padding animate fadeInUp delay-05s">
-  <div class="container">
+
     <div class="row">
+        <article>
       <div class="col-md-12">
         <h1 id="title-nosotros">¡Con nosotros aprenderás!</h1>
+        <br/><br/>
+        <br/>
+        <br/>
         <p id="text-nosotros">Si quieres aprender los mejores pasos de moda, encontrar tu ritmo y emplear las técnicas más sofisticadas, <br /> ingresa a nuestra academia, te daremos todas las herramientas necesarias para que seas el mejor.</p>
+        <br/>
+        <br/>
       </div>
-    </div>
 
-    <div class="row">
       <div class="col-md-12">
         <div class="col-md-2 clases-cont2">
-          <img src="{% static "assets/img/tecnica-en-los-pasos.jpg"%}" class="image2">
+          <img src="{% static "assets/img/tecnica-en-los-pasos.jpg"%}" class="image">
 
         </div>
 
         <div class="col-md-2 clases-cont2">
-          <img src="{% static "assets/img/definición-de-estilo.jpg"%}" class="image2">
+          <img src="{% static "assets/img/definición-de-estilo.jpg"%}" class="image">
 
         </div>
 
         <div class="col-md-2 clases-cont2">
-          <img src="{% static "assets/img/interpretacion.jpg"%}" class="image2">
+          <img src="{% static "assets/img/interpretacion.jpg"%}" class="image">
 
         </div>
 
         <div class="col-md-2 clases-cont2">
-          <img src="{% static "assets/img/variedad-de-giros.jpg"%}" class="image2">
+          <img src="{% static "assets/img/variedad-de-giros.jpg"%}" class="image">
 
         </div>
 
         <div class="col-md-2 clases-cont2">
-          <img src="{% static "assets/img/ritmica-musica.jpg"%}" class="image2">
+          <img src="{% static "assets/img/ritmica-musica.jpg"%}" class="image">
 
         </div>
 
         <div class="col-md-2 clases-cont2">
-          <img src="{% static "assets/img/musicalidad.jpg"%}" class="image2">
+          <img src="{% static "assets/img/musicalidad.jpg"%}" class="image">
 
         </div>
 
-      </div>
+
     </div>
+    </article>
   </div>
 </section>
 
@@ -183,7 +187,9 @@
       <div class="col-md-2"></div>
       <div class="col-md-4 fondo-paquete">
         <div class="col-md-12 paquetesX">
-          <p class="descripcion-paquete3">Clase Única </br> <span class="precio">$75.000</span></p>
+          <p class="descripcion-paquete3">Clase Única Individual</p>
+          <p class="descripcion-paquete3">2 Horas</p>
+          <p class="descripcion-paquete3"><span class="precio">$75.000</span></p>
           <button class="boton-paquete">        <script
             src="https://checkout.epayco.co/checkout.js"
             class="epayco-button"
@@ -199,30 +205,7 @@
             data-epayco-confirmation="https://izaxwolfapp.com.ve/Bailante/confirmation.php">
         </script></button>
         </div>
-        <div class="col-md-12 paquetesXX">
-          <p class="descripcion-paquete3">Clase Única en pareja</p>
-          <p class="descripcion-paquete2">2 Horas</p>
-          <p class="descripcion-paquete3"><span class="precio">$97.000</span></p>
-          <button class="boton-paquete">
-                      <script
-            src="https://checkout.epayco.co/checkout.js"
-            class="epayco-button"
-            data-epayco-key="491d6a0b6e992cf924edd8d3d088aff1"
-            data-epayco-amount="97000"
-            data-epayco-name="Bailante"
-            data-epayco-description="Bailante"
-            data-epayco-currency="cop"
-            data-epayco-country="co"
-            data-epayco-test="false"
-            data-epayco-external="false"
-            data-epayco-response="https://izaxwolfapp.com.ve/Bailante/response.html"
-            data-epayco-confirmation="https://izaxwolfapp.com.ve/Bailante/confirmation.php">
-        </script>
-            </button>
-        </div>
-      </div>
 
-      <div class="col-md-4 fondo-paquete">
         <div class="col-md-12 paquetes1">
           <p class="descripcion-paquete3">Mensualidad </br> <span class="precio2">12 clases x $780.000</span> </br>
             </br> <span class="precio">Ahorra $120.000</span></p>
@@ -244,7 +227,32 @@
         </script>
             </button>
         </div>
-        <div class="col-md-12 paquetes2">
+      </div>
+
+      <div class="col-md-4 fondo-paquete">
+          <div class="col-md-2"></div>
+        <div class="col-md-12 paquetesX">
+          <p class="descripcion-paquete3">Clase Única en Pareja</p>
+          <p class="descripcion-paquete3">2 Horas</p>
+          <p class="descripcion-paquete3"><span class="precio">$97.000</span></p>
+          <button class="boton-paquete">
+                      <script
+            src="https://checkout.epayco.co/checkout.js"
+            class="epayco-button"
+            data-epayco-key="491d6a0b6e992cf924edd8d3d088aff1"
+            data-epayco-amount="97000"
+            data-epayco-name="Bailante"
+            data-epayco-description="Bailante"
+            data-epayco-currency="cop"
+            data-epayco-country="co"
+            data-epayco-test="false"
+            data-epayco-external="false"
+            data-epayco-response="https://izaxwolfapp.com.ve/Bailante/response.html"
+            data-epayco-confirmation="https://izaxwolfapp.com.ve/Bailante/confirmation.php">
+        </script>
+            </button>
+        </div>
+        <div class="col-md-12 paquetes1">
           <p class="descripcion-paquete3">Clase Mensual en Pareja </br> <span class="precio2">12 clases x $990.000</span> </br>
             </br> <span class="precio">Ahorra $174.000</span></p>
           <button class="boton-paquete">

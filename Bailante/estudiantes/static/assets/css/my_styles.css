@@ -87,7 +87,7 @@ section#clases {
 }
 
 #largo {
-	background-color: #e84ef5;
+	background-color: hotpink;
     width: 25%;
     color: transparent;
     display: block;
@@ -97,7 +97,7 @@ section#clases {
 
 .title-instructores {
 	text-align: center;
-	color: #e84ef5;
+	color: hotpink;
 	font-weight: bold;
 	text-transform: uppercase;
 }
@@ -199,7 +199,7 @@ section#clases {
 	background-image: url('../img/fondo-paquetes.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
-  
+
 }
 
 #title-paquetes {
@@ -379,7 +379,7 @@ footer {
 }
 
 .logo-redes img {
-    width: 5%;
+    width: 10%;
     float: right;
     margin-top: 1.5em;
 }
